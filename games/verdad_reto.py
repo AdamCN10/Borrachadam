@@ -14,20 +14,20 @@ st.divider()
 # --- Diccionario de categorías -> archivos csv (verdad, reto) ---
 categorias = {
     "Completo": {
-        "verdad": "data/verdad/full_verdad_limpio",
-        "reto": "data/reto/full_reto_limpio"
+        "verdad": "../data/verdad/full_verdad_limpio",
+        "reto": "../data/reto/full_reto_limpio"
     },
     "Básico": {
-        "verdad": "data/verdad/categories/basic.csv",
-        "reto": "data/reto/categories/basic.csv"
+        "verdad": "../data/verdad/categories/basic.csv",
+        "reto": "../data/reto/categories/basic.csv"
     },
     "Party": {
-        "verdad": "data/verdad/categories/party.csv",
-        "reto": "data/reto/categories/party.csv"
+        "verdad": "../data/verdad/categories/party.csv",
+        "reto": "../data/reto/categories/party.csv"
     },
     "Hot": {
-        "verdad": "data/verdad/categories/hot.csv",
-        "reto": "data/reto/categories/hot.csv"
+        "verdad": "../data/verdad/categories/hot.csv",
+        "reto": "../data/reto/categories/hot.csv"
     },
 }
 
