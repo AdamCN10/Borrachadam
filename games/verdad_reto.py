@@ -73,7 +73,7 @@ if "df_verdades" in st.session_state and "df_retos" in st.session_state:
         if st.button("🗣️ Sacar Verdad"):
             if restantes_v > 0:
                 idx = random.randint(0, restantes_v - 1)
-                frase = df_verdades.iloc[idx]["frase"]
+                frase = df_verdades.iloc[idx]["verdad"]
                 st.session_state.frase_actual = frase
                 st.session_state.tipo_actual = "Verdad"
                 st.session_state.df_verdades = df_verdades.drop(index=idx).reset_index(drop=True)
@@ -86,7 +86,7 @@ if "df_verdades" in st.session_state and "df_retos" in st.session_state:
         if st.button("🔥 Sacar Reto"):
             if restantes_r > 0:
                 idx = random.randint(0, restantes_r - 1)
-                frase = df_retos.iloc[idx]["frase"]
+                frase = df_retos.iloc[idx]["reto"]
                 st.session_state.frase_actual = frase
                 st.session_state.tipo_actual = "Reto"
                 st.session_state.df_retos = df_retos.drop(index=idx).reset_index(drop=True)
