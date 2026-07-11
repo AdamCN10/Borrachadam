@@ -10,8 +10,8 @@ st.set_page_config(
 ruleta = st.Page("games/ruleta.py", title="Ruleta rusa de chupitos", icon="🎯")
 verdad_reto = st.Page("games/verdad_reto.py", title="Verdad o Reto", icon="🎲")
 yo_nunca = st.Page("games/yo_nunca.py", title="Yo nunca", icon="🙈")
-mas_probable = st.Page("games/probable.py", title="Verdad o Reto", icon="☝️")
-que_prefieres = st.Page("games/prefieres.py", title="Yo nunca", icon="👍")
+mas_probable = st.Page("games/probable.py", title="Quién es más probable", icon="☝️")
+que_prefieres = st.Page("games/prefieres.py", title="Qué prefieres", icon="👍")
 
 
 # Página home opcional dentro del propio app.py
