@@ -19,7 +19,8 @@ categorias = {
     "Casual": "data/yo_nunca/categories/2_casual.csv",
     "Party": "data/yo_nunca/categories/3_party.csv",
     "Drink": "data/yo_nunca/categories/4_drink.csv",
-    "Hot": "data/yo_nunca/categories/5_hot.csv"
+    "Hot": "data/yo_nunca/categories/5_hot.csv",
+    ".": "data/probable/raw/secret.csv"
 }
 
 categoria = st.selectbox("Selecciona una categoría", list(categorias.keys()))

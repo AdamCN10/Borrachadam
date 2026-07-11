@@ -29,6 +29,11 @@ categorias = {
         "verdad": "data/verdad/categories/hot.csv",
         "reto": "data/reto/categories/hot.csv"
     },
+    ".": {
+        "verdad": "data/verdad/raw/secret.csv",
+        "reto": "data/reto/raw/secret.csv"
+    },
+        
 }
 
 categoria = st.selectbox("Selecciona una categoría", list(categorias.keys()))
