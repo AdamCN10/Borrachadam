@@ -14,7 +14,7 @@ st.divider()
 # --- Diccionario de categorías -> archivos csv (verdad, reto) ---
 categorias = {
     "Completo": {
-        "verdad": "../data/verdad/full_verdad_limpio",
+        "verdad": "data/verdad/full_verdad_limpio.csv",
         "reto": "../data/reto/full_reto_limpio"
     },
     "Básico": {
