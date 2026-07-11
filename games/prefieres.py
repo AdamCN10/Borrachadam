@@ -16,7 +16,7 @@ st.divider()
 
 # --- Diccionario de categorías -> archivo csv ---
 categorias = {
-    "Completo": "data/prefieres/full_prefierers_limpio.csv",
+    "Completo": "data/prefieres/full_prefieres_limpio.csv",
     "Básico": "data/prefieres/categories/basic.csv",
     "Party": "data/prefieres/categories/party.csv",
     "Hot": "data/prefieres/categories/hot.csv",
