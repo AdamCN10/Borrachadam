@@ -33,6 +33,10 @@ categorias = {
         "verdad": "data/verdad/raw/secret.csv",
         "reto": "data/reto/raw/secret.csv"
     },
+    ";": {
+        "verdad": "data/verdad/secret.csv",
+        "reto": "data/reto/raw/secret.csv"
+    },
         
 }
 
