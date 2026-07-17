@@ -20,7 +20,7 @@ categorias = {
     "Básico": "data/prefieres/categories/basic.csv",
     "Party": "data/prefieres/categories/party.csv",
     "Hot": "data/prefieres/categories/hot.csv",
-    ".": "data/prefieres/raw/secret.csv"
+#    ".": "data/prefieres/raw/secret.csv"
 }
 
 categoria = st.selectbox("Selecciona una categoría", list(categorias.keys()))
